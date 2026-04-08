@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #f7ebe2;
+  font-family: Montserrat, verdana;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  /* overflow: hidden; */
+}
+
+h1 {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+footer {
+  height: 15%;
+  max-height: 15%;
+  min-height: 15%;
+  overflow: hidden;
+}
+
+header {
+  height: 15%;
+  max-height: 15%;
+  min-height: 15%;
+  overflow: hidden;
+}
+
+main {
+  height: 70%;
+  max-height: 70%;
+  min-height: 70%;
+  overflow: auto;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.auto-overflow {
+  overflow: auto;
+}
+
+.scroll-overflow {
+  overflow: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.i-theme-color {
+  background-color: #784421;
+  color: #ffffff;
+}
+
+.i-theme-color a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.theme-color {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-color a {
+  color: #784421;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 2em;
+  vertical-align: middle;
+  font-weight: bold;
+}
