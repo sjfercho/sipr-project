@@ -10,7 +10,7 @@
       const path = window.location.pathname;
 
       // Redirect to index.html with the path as a query parameter
-      window.location.href = `${window.location.origin}/index.html?url=${encodeURIComponent(path)}`;
+      window.location.href = `${window.location.origin}${encodeURIComponent(path)}`;
     </script>
   </body>
 </html>
