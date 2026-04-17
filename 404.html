@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>
+      // Capture the current URL path
+      const path = window.location.pathname;
+
+      // Redirect to index.html with the path as a query parameter
+      window.location.href = `${window.location.origin}${encodeURIComponent(path)}`;
+    </script>
+  </body>
+</html>
